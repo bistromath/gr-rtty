@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+
+<block>
+  <name>RTTY Decode</name>
+  <key>rtty_decode_ff</key>
+  <category>RTTY</category>
+  <import>import rtty</import>
+  <make>rtty.decode_ff(
+  samp_rate=$samp_rate, 
+  baud_rate=$baud_rate, 
+  polarity=$polarity,
+)</make>
+  
+  <param>
+    <name>Sample rate</name>
+    <key>samp_rate</key>
+    <value>samp_rate</value>
+    <type>real</type>
+  </param>
+  
+  <param>
+    <name>Baud rate</name>
+    <key>baud_rate</key>
+    <value>45.45</value>
+    <type>real</type>
+  </param>
+  
+  <param>
+    <name>Polarity</name>
+    <key>polarity</key>
+    <value>True</value>
+    <type>bool</type>
+    <option>
+        <name>Mark high</name>
+        <key>True</key>
+    </option>
+    <option>
+        <name>Mark low</name>
+        <key>False</key>
+    </option>
+  </param>
+  
+  <sink>
+    <name>in</name>
+    <type>float</type>
+  </sink>
+
+  <source>
+    <name>out</name>
+    <type>byte</type>
+  </source>
+  
+</block>
