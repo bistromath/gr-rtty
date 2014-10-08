@@ -1,0 +1,9 @@
+/backup/gnuradio/oot/gr-rtty/build/swig/CMakeFiles/_rtty_swig.dir
+/backup/gnuradio/oot/gr-rtty/build/swig/CMakeFiles/_rtty_swig_swig_tag.dir
+/backup/gnuradio/oot/gr-rtty/build/lib/CMakeFiles/gnuradio-rtty.dir
+/backup/gnuradio/oot/gr-rtty/build/apps/CMakeFiles/pygen_apps_9a6dd.dir
+/backup/gnuradio/oot/gr-rtty/build/python/CMakeFiles/pygen_python_5c849.dir
+/backup/gnuradio/oot/gr-rtty/build/swig/CMakeFiles/pygen_swig_a7fb7.dir
+/backup/gnuradio/oot/gr-rtty/build/swig/CMakeFiles/rtty_swig_swig_doc.dir
+/backup/gnuradio/oot/gr-rtty/build/lib/CMakeFiles/test-rtty.dir
+/backup/gnuradio/oot/gr-rtty/build/CMakeFiles/uninstall.dir

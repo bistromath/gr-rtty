@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/rtty/api.h
+gnuradio/attributes.h
+-
+
+../include/rtty/rtty_decode_ff.h
+rtty/api.h
+-
+gnuradio/block.h
+-
+
+/backup/gnuradio/oot/gr-rtty/lib/rtty_decode_ff_impl.cc
+config.h
+/backup/gnuradio/oot/gr-rtty/lib/config.h
+gnuradio/io_signature.h
+-
+rtty_decode_ff_impl.h
+/backup/gnuradio/oot/gr-rtty/lib/rtty_decode_ff_impl.h
+
+/backup/gnuradio/oot/gr-rtty/lib/rtty_decode_ff_impl.h
+rtty/rtty_decode_ff.h
+-
+
